@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "app_name"> Où est mon bébé? </string>
+        <string name = "title_activity_maps"> Carte </string>
+        <string name = "enter_your_key"> Entrez votre clé unique </string>
+        <string name = "next"> Next </string>
+        <string name = "textView_where_is_my_baby"> ATTENTION \n
+        Pour le bon fonctionnement de l application: \n
+        1. Désactivez les notifications pour cette application \n
+        2. Vous devez également autoriser l application à accéder aux données de localisation de l appareil et activer la localisation dans l application \n
+        3. Inventez et mémorisez votre clé unique, vous en aurez besoin pour entrer le téléphone de l observateur et le téléphone surveillé \n
+        4. Définir le rôle
+    </string>
+        <string name = "user_enable_location"> Utilisateur, activez l emplacement, veuillez </string>
+        <string name = "location_setttings"> Paramètres de localisation </string>
+        <string name = "no_"> NO </string>
+        <string name = "becouse"> Sinon, l application ne fonctionnera pas </string>
+        <string name = "theKeyNeedByMore"> La clé doit comporter plus de sept caractères </string>
+        <string name = "key_saved"> Clé enregistrée </string>
+        <string name = "settings_"> Paramètres </string>
+        <string name = "set_notification"> Désactiver la notification </string>
+        <string name = "set_location"> Activer l emplacement </string>
+        <string name = "disable_notification"> Désactiver la notification </string>
+        <string name = "user_disable"> Utilisateur, veuillez désactiver les notifications </string>
+        <string name = "disable_n"> Désactiver </string>
+        <string name = "set_phone"> Choisissez le rôle du téléphone: qu il s agisse d un observateur (rôle du père) ou observable (rôle du fils) </string>
+        <string name = "set_r"> Le rôle du téléphone </string>
+        <string name = "father_"> Le rôle du père </string>
+        <string name = "son_"> Le rôle de l enfant </string>
+        <string name = "role_"> Rôle </string>
+        <string name = "share"> Partager </string>
+        <string name = "change_roll_name"> Supprimer la clé et le rôle </string>
+        <string name = "change_roll_key"> Si vous devez supprimer la clé et le rôle, \n Insérer l ancienne clé </string>
+        <string name = "remove_"> Supprimer la clé et le rôle </string>
+        <string name = "no_data"> Aucune donnée! </string>
+        <string name = "for_you_key"> pour votre clé </string>
+</resources>

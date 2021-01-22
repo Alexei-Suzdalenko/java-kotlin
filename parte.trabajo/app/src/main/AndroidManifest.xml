@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="parte.trabajo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".assets.AppPartesDeTrabajo"
+        android:allowBackup="true"
+        android:description="@string/app_name_des"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <meta-data
+            android:name="asset_statements"
+            android:resource="@string/asset_statements" />
+
+        <activity android:name=".Brouser">
+            <tools:validation testUrl="https://alexander-vishnevsky.web.app/policy/" />
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="https"
+                    android:host="alexander-vishnevsky.web.app" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListPart"
+            android:label="@string/list_work"
+            android:parentActivityName=".PartesTrabajo" />
+        <activity
+            android:name=".CreateNewPart"
+            android:label="@string/createNewPart"
+            android:parentActivityName=".PartesTrabajo">
+        </activity>
+        <activity
+            android:name=".ListClient"
+            android:label="@string/client"
+            android:parentActivityName=".PartesTrabajo" />
+        <activity
+            android:name=".AddNewClient"
+            android:label="@string/addNewClient"
+            android:parentActivityName=".PartesTrabajo" />
+        <activity
+            android:name=".PartesTrabajo"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="parte.trabajo.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1208057699352262~3991730378"/>
+    </application>
+
+</manifest>

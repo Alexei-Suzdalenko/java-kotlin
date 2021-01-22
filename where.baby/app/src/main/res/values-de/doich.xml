@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wo mein Baby ?</string>
+    <string name="title_activity_maps">Karte</string>
+    <string name="enter_your_key">Geben Sie Ihren eindeutigen Schlüssel ein</string>
+    <string name="next">Nächste</string>
+    <string name="textView_where_is_my_baby">ACHTUNG \n
+        Für den korrekten Betrieb der Anwendung: \n
+        1. Deaktivieren Sie Benachrichtigungen für diese Anwendung \n
+        2. Außerdem müssen Sie der Anwendung den Zugriff auf die Standortdaten des Geräts erlauben und den Standort in der Anwendung aktivieren \n
+        3. Erfinden und merken Sie sich Ihren eindeutigen Schlüssel, den Sie benötigen, um das Beobachtertelefon und das überwachte Telefon zu betreten \n
+        4. Rolle festlegen
+    </string>
+    <string name="user_enable_location">Benutzer, Standort aktivieren, bitte</string>
+    <string name="location_setttings">Standort-Einstellungen</string>
+    <string name="no_">NO</string>
+    <string name="becouse">Anderenfalls wird die Anwendung nicht funktionieren</string>
+    <string name="theKeyNeedByMore">Der Schlüssel muss länger als sieben Zeichen sein</string>
+    <string name="key_saved">Schlüssel gespeichert</string>
+    <string name="settings_">Einstellungen</string>
+    <string name="set_notification">Benachrichtigung deaktivieren</string>
+    <string name="set_location">Standort aktivieren</string>
+    <string name="disable_notification">Benachrichtigung deaktivieren</string>
+    <string name="user_disable">Benutzer, bitte, deaktivieren Sie Benachrichtigungen</string>
+    <string name="disable_n">Disable</string>
+    <string name="set_phone">Wählen Sie die Rolle des Telefons: ob es als Beobachter (Rolle des Vaters) oder als Beobachter (Rolle des Sohnes)</string>
+    <string name="set_r">Die Rolle des Telefons</string>
+    <string name="father_">Die Rolle des Vaters</string>
+    <string name="son_">Die Rolle des Kindes</string>
+    <string name="role_">Rolle</string>
+    <string name="share">Freigeben</string>
+    <string name="change_roll_name">Schlüssel und Rolle entfernen</string>
+    <string name="change_roll_key">Wenn Sie den Schlüssel und die Rolle entfernen müssen, \n Alten Schlüssel einfügen</string>
+    <string name="remove_">Schlüssel und Rolle löschen</string>
+    <string name="no_data">keine Daten !</string>
+    <string name="for_you_key">für Ihren Schlüssel</string>
+</resources>

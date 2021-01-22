@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:orientation="vertical"
+    android:layout_margin="11dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Id"
+        android:text="0"
+        android:id="@+id/idEdit"
+        android:autofillHints="asdfasdf" />
+    <EditText
+        android:hint="@string/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

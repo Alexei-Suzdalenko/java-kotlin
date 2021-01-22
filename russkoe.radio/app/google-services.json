@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "873441510564",
+    "firebase_url": "https://alexander-vishnevsky.firebaseio.com",
+    "project_id": "alexander-vishnevsky",
+    "storage_bucket": "alexander-vishnevsky.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873441510564:android:e50b93bc1ae4b318781231",
+        "android_client_info": {
+          "package_name": "russkoe.radio_rossii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873441510564-dmhmaufl1bel0ef87439buc6f0tvb278.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "russkoe.radio_rossii",
+            "certificate_hash": "b0d4bab1572ff5cd11c49fce7af33bc8546a57fa"
+          }
+        },
+        {
+          "client_id": "873441510564-16e2l1c5ct72ce86j2dh51uqod3qtve6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAerq_r_64Nnn8-_ThX2wby7Ak5nZJuYj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873441510564-16e2l1c5ct72ce86j2dh51uqod3qtve6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

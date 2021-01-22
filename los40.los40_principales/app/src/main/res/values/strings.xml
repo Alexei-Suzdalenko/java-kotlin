@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Radio de España</string>
+    <string name="app_des">Radios de España</string>
+    <string name="ads">¡ Que tengas un buen día !</string>
+    <string name="title_home">Radios de España</string>
+    <string name="title_dashboard">Los 40 principales</string>
+    <string name="title_notifications">Los 40 principales</string>
+    <string name="app_name_des">Radios de España</string>
+    <string name="asset_statements" translatable="false">[{ \"include\": \"https://diseno-web-cantabria.web.app/.well-known/assetlinks.json\" }]</string>
+</resources>

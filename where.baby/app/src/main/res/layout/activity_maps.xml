@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relativeLayoutGeneral"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<TextView
+    android:textSize="11sp"
+    android:maxLines="1"
+    android:visibility="gone"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentTop="true"
+    android:id="@+id/danger_no_data"
+    android:textColor="@android:color/white"
+    android:layout_gravity="center_horizontal"
+    android:text="@string/no_data"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:ignore="SmallSp" />
+<LinearLayout
+    android:layout_marginTop="22dp"
+    android:layout_marginBottom="22dp"
+    android:layout_alignParentTop="true"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity" />
+</LinearLayout>
+    <com.google.android.gms.ads.AdView
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-1208057699352262/9135478903"
+
+        >
+    </com.google.android.gms.ads.AdView>
+<!--
+ ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+ ads:adUnitId="ca-app-pub-1208057699352262/9135478903"
+ -->
+</RelativeLayout>

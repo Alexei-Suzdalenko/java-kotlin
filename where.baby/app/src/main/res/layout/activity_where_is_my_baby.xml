@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WhereIsMyBaby">
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_marginTop="51dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginEnd="22dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:textSize="16sp"
+                android:id="@+id/editText_where_is_my_baby"
+                android:inputType="text"
+                android:maxLines="1"
+                android:hint="@string/enter_your_key"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="" />
+            <Button
+                android:textSize="16sp"
+                android:id="@+id/button_where_is_my_baby"
+                android:layout_marginTop="31dp"
+                android:text="@string/next"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginTop="31dp"
+                android:text="@string/textView_where_is_my_baby"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:id="@+id/textView_where_is_my_baby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

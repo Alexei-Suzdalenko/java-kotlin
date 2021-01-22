@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">¿ Donde esta mi hijo ?</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="enter_your_key">Introduzca su clave única</string>
+    <string name="next">Siguiente</string>
+    <string name="textView_where_is_my_baby">ADVERTENCIA \n
+        Para el correcto funcionamiento de la aplicación: \n
+        1. Deshabilitar las notificaciones para esta aplicación. \n
+        2. También tienes que permitir a la aplicación el acceso a los datos de localización del dispositivo y habilitar la localización en la aplicación. \n
+        3. Invente y recuerde su llave única, la necesitará para entrar en el teléfono del observador y en el teléfono vigilado. \n
+        4. Establecer el papel
+    </string>
+    <string name="user_enable_location">Usuario, habilitar ubicación, por favor</string>
+    <string name="location_setttings">Configuración de la localización</string>
+    <string name="no_">NO</string>
+    <string name="becouse">De lo contrario, la aplicación no funcionará</string>
+    <string name="theKeyNeedByMore">La clave debe tener más de siete caracteres</string>
+    <string name="key_saved">Clave guardada</string>
+    <string name="settings_">Settings</string>
+    <string name="set_notification">Desactivar notificación</string>
+    <string name="set_location">Habilitar location</string>
+    <string name="disable_notification">Deshabilitar notificación</string>
+    <string name="user_disable">Usuario, por favor, deshabilite las notificaciones</string>
+    <string name="disable_n">Disable</string>
+    <string name="set_phone">Elija el papel del teléfono: si será un observador (papel del padre) u observable (papel del hijo)</string>
+    <string name="set_r">El papel del teléfono</string>
+    <string name="father_">El papel del padre</string>
+    <string name="son_">El papel del niño</string>
+    <string name="role_">Role</string>
+    <string name="share">Compartir</string>
+    <string name="change_roll_name">Quitar clave y rol</string>
+    <string name="change_roll_key">Si necesitas quitar la llave y el rol, \n Inserta la llave antigua</string>
+    <string name="remove_">Borrar clave y rol</string>
+    <string name="no_data">Sin datos!</string>
+    <string name="for_you_key">para su llave</string>
+</resources>

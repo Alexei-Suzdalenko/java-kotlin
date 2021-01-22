@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Вести ФМ</string>
+    <string name="ads">Приятного дня !</string>
+
+    <string name="top">Топ</string>
+    <string name="glavnoe">Главное</string>
+    <string name="lenta">Лента</string>
+    <string name="blog">Блог</string>
+    <string name="mnenie">Мнение</string>
+    <string name="statii">Статьи</string>
+    <string name="politica">Политика</string>
+    <string name="youtube">YouTube</string>
+    <string name="app_name_des">Новости без цензуры</string>
+    <string name="grani_novosti_rossii">Новости без цензуры</string>
+    <string name="action_settings">Settings</string>
+    <string name="share">Поделиться</string>
+    <string name="app_name_s">Новости России</string>
+    <string name="asset_statements" translatable="false">[{ \"include\": \"https://alexander-vishnevsky.web.app/.well-known/assetlinks.json\" }]</string>
+</resources>

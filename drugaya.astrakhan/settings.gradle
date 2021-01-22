@@ -1,0 +1,2 @@
+rootProject.name='drugaia.astrakhan'
+include ':app'

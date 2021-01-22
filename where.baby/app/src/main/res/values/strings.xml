@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Where my baby ?</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="enter_your_key">Enter your unique key</string>
+    <string name="next">Next</string>
+    <string name="textView_where_is_my_baby">ATTENTION \n
+        For the correct operation of the application: \n
+        1. Disable notifications for this application \n
+        2. You also need to allow the application access to the device’s location data and enable location in the application \n
+        3. Invent and remember your unique key, you will need it to enter the observer telephone and the monitored telephone \n
+        4. Set role
+    </string>
+    <string name="user_enable_location">User, enable location, please</string>
+    <string name="location_setttings">Location settings</string>
+    <string name="no_">NO</string>
+    <string name="becouse">Otherwise, the application will not work</string>
+    <string name="theKeyNeedByMore">The key must be longer than seven characters</string>
+    <string name="key_saved">Key saved</string>
+    <string name="settings_">Settings</string>
+    <string name="set_notification">Disable notification</string>
+    <string name="set_location">Enable location</string>
+    <string name="disable_notification">Disable notification</string>
+    <string name="user_disable">User, please, disable notifications</string>
+    <string name="disable_n">Disable</string>
+    <string name="set_phone">Choose the role of the phone: whether it will be an observer (role of the father) or observable (role of the son)</string>
+    <string name="set_r">The role of the phone</string>
+    <string name="father_">The role of father</string>
+    <string name="son_">The role of the child</string>
+    <string name="role_">Role</string>
+    <string name="share">Share</string>
+    <string name="change_roll_name">Remove key and role</string>
+    <string name="change_roll_key">If you need to remove the key and role, \n Insert old key</string>
+    <string name="remove_">Delete key and role</string>
+    <string name="no_data">No data !</string>
+    <string name="for_you_key">for your key</string>
+</resources>

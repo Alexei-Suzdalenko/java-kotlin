@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name = "app_name">Gdzie jest mój syn?</string>
+        <string name = "title_activity_maps"> Mapa </string>
+        <string name = "enter_your_key"> Wpisz swój unikalny klucz </string>
+        <string name = "next"> Dalej </string>
+        <string name = "textView_where_is_my_baby"> UWAGA \ n
+        Do poprawnego działania aplikacji: \ n
+        1. Wyłącz powiadomienia dla tej aplikacji \ n
+        2. Musisz także zezwolić aplikacji na dostęp do danych lokalizacji urządzenia i włączyć lokalizację w aplikacji \ n
+        3. Wymyśl i zapamiętaj swój unikalny klucz, będziesz go potrzebować, aby wejść do telefonu obserwatora i telefonu monitorowanego \ n
+        4. Ustaw rolę
+    </string>
+        <string name = "user_enable_location"> Użytkownik, włącz lokalizację, proszę </string>
+        <string name = "location_setttings"> Ustawienia lokalizacji </string>
+        <string name = "no_"> NO </string>
+        <string name = "becouse"> W przeciwnym razie aplikacja nie będzie działać </string>
+        <string name = "theKeyNeedByMore"> Klucz musi być dłuższy niż siedem znaków </string>
+        <string name = "key_saved"> Klucz zapisany </string>
+        <string name = "settings_"> Ustawienia </string>
+        <string name = "set_notification"> Wyłącz powiadomienia </string>
+        <string name = "set_location"> Włącz lokalizację </string>
+        <string name = "disable_notification"> Wyłącz powiadomienia </string>
+        <string name = "user_disable"> Użytkownik, proszę wyłączyć powiadomienia </string>
+        <string name = "disable_n"> Wyłącz </string>
+        <string name = "set_phone"> Wybierz rolę telefonu: czy będzie to obserwator (rola ojca) czy obserwowalny (rola syna) </string>
+        <string name = "set_r"> Rola telefonu </string>
+        <string name = "father_"> Rola ojca </string>
+        <string name = "son_"> Rola dziecka </string>
+        <string name = "role_"> Rola </string>
+        <string name = "share"> Udostępnij </string>
+        <string name = "change_roll_name"> Usuń klucz i rolę </string>
+        <string name = "change_roll_key"> Jeśli chcesz usunąć klucz i rolę, \ n Wstaw stary klucz </string>
+        <string name = "remove_"> Usuń klucz i rolę </string>
+        <string name = "no_data"> Brak danych! </string>
+        <string name = "for_you_key"> dla twojego klucza </string>
+</resources>

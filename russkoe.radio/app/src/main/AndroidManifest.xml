@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="russkoe.radio_rossii">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+
+        android:name="read.novosti.rossii.App"
+        android:allowBackup="true"
+        android:description="@string/app_name_des"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <meta-data
+            android:name="asset_statements"
+            android:resource="@string/asset_statements" />
+
+        <activity android:name="russkoe.radio_rossii.Radio_rossii" android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="russkoe.radio_rossii.Youtube_novosti_rossiii" android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="russkoe.radio_rossii.Brouser_novosti_rossii"
+            android:label="@string/app_name"
+            android:parentActivityName="russkoe.radio_rossii.Novosti_rossii">
+            <tools:validation testUrl="https://alexander-vishnevsky.web.app" />
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="alexander-vishnevsky.web.app"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="russkoe.radio_rossii.Grani_novosti_rossii"
+            android:label="@string/grani_novosti_rossii"
+            android:parentActivityName="russkoe.radio_rossii.Novosti_rossii" />
+        <activity
+            android:name="russkoe.radio_rossii.Novosti_rossii"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <service android:name="russkoe.radio_rossii.ui.main.Service_russkoe_radio" />
+
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-1208057699352262~3655020151"/>
+    </application>
+
+</manifest>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

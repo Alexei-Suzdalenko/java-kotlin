@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Радио Будильник</string>
+    <string name="app_name_des">Радио Будильник, Скрепоносный Бузотер</string>
+    <string name="action_settings">Настройки звука</string>
+    <string name="off">Выключен</string>
+    <string name="comment">Оставить комментарий</string>
+    <string name="share">Поделиться</string>
+    <string name="barmaleika">Радио Испании</string>
+    <string name="buzoter">Скрепоносный Бузотер</string>
+    <string name="rus_radio">Радиостанции России</string>
+    <string name="disableNot">Отключить уведомления</string>
+    <string name="set_time_toAlarm">Установите время будильника</string>
+    <string name="delemiter">:</string>
+    <string name="cancel">Отменить</string>
+    <string name="go">Установить</string>
+    <string name="titleDialogText">"Установите время будильника"</string>
+    <string name="use">Будильник установлен</string>
+    <string name="installlition">Будильник установлен</string>
+    <string name="offSound">Выключить звук</string>
+    <string name="message">Звук радио выключен</string>
+    <string name="offRadio">Выключить будильник</string>
+    <string name="eng_radio">Радиостанции Англии</string>
+    <string name="asset_statements" translatable="false">[{ \"include\": \"https://alexander-vishnevsky.web.app/.well-known/assetlinks.json\" }]</string>
+
+</resources>

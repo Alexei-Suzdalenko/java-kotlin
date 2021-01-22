@@ -1,0 +1,2 @@
+rootProject.name='lex.coder'
+include ':app'

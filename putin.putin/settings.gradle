@@ -1,0 +1,2 @@
+rootProject.name='putin.putin'
+include ':app'

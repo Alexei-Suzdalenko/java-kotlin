@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Radio Despertador</string>
+    <string name="app_name_des">Radio Despertador</string>
+    <string name="action_settings">Ajustes de sonido</string>
+    <string name="off">Apagado</string>
+    <string name="comment">Deje un comentario</string>
+    <string name="share">Compartir</string>
+    <string name="barmaleika">Las emisoras de radio en España</string>
+    <string name="buzoter">Scrapbooking Boozer</string>
+    <string name="rus_radio">Las estaciones de radio de Rusia</string>
+    <string name="disableNot">Desactivar las notificaciones</string>
+    <string name="set_time_toAlarm">Poner la hora de la alarma</string>
+    <string name="delemiter">:</string>
+    <string name="cancel">Cancelar</string>
+    <string name="go">Instalar</string>
+    <string name="titleDialogText">Poner la hora de la alarma</string>
+    <string name="use">El reloj despertador está puesto</string>
+    <string name="installlition">El reloj despertador está puesto</string>
+    <string name="offSound">Apagar el sonido</string>
+    <string name="message">El sonido apagado</string>
+    <string name="offRadio">Apagar el despertador</string>
+    <string name="eng_radio">Las estaciones de radio en Inglaterra</string>
+</resources>

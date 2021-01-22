@@ -1,0 +1,2 @@
+rootProject.name='echo.moscow.echomoscow'
+include ':app'

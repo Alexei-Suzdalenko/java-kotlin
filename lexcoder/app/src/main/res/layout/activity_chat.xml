@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chat">
+
+    <ListView
+        android:layout_marginBottom="70dp"
+        android:layout_alignParentTop="true"
+        android:transcriptMode="alwaysScroll"
+        android:id="@+id/listViewMessages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <LinearLayout
+
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linearLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        >
+        <EditText
+            android:id="@+id/editText"
+            android:layout_margin="7dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_margin="7dp"
+            android:id="@+id/save"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="Save"
+            />
+    </LinearLayout>
+</RelativeLayout>

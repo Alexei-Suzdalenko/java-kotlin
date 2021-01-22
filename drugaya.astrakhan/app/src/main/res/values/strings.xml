@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Другая Астрахань</string>
+    <string name="ads">¡ Приятного Дня !</string>
+    <string name="title_home">Другая Астрахань</string>
+    <string name="title_dashboard">Другая Астрахань</string>
+    <string name="title_notifications">Другая Астрахань</string>
+    <string name="app_name_des">Другая Астрахань</string>
+    <string name="asset_statements" translatable="false">[{ \"include\": \"https://alexander-vishnevsky.web.app/.well-known/assetlinks.json\" }]</string>
+    <string name="kasparov">Каспаров</string>
+    <string name="grani">Грани</string>
+</resources>

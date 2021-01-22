@@ -1,0 +1,250 @@
+{
+  "project_info": {
+    "project_number": "873441510564",
+    "firebase_url": "https://alexander-vishnevsky.firebaseio.com",
+    "project_id": "alexander-vishnevsky",
+    "storage_bucket": "alexander-vishnevsky.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873441510564:android:ff84abb5a44b1807781231",
+        "android_client_info": {
+          "package_name": "cadena.dial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873441510564-1ekejqrpdgl68hl36c69shh439j287a3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cadena.dial",
+            "certificate_hash": "34f2633a6b1d8b13fa1c52acb5b6b2c82177ed28"
+          }
+        },
+        {
+          "client_id": "873441510564-irhhm1cpegv6pknb9c9jj2btrvdi1rin.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cadena.dial",
+            "certificate_hash": "b0d4bab1572ff5cd11c49fce7af33bc8546a57fa"
+          }
+        },
+        {
+          "client_id": "873441510564-16e2l1c5ct72ce86j2dh51uqod3qtve6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAerq_r_64Nnn8-_ThX2wby7Ak5nZJuYj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873441510564-16e2l1c5ct72ce86j2dh51uqod3qtve6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-1208057699352262~4717939946"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873441510564:android:9d3d6688d1807276781231",
+        "android_client_info": {
+          "package_name": "komsomolskaya.pravda_live"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873441510564-dq39ppv9583vvvq5l5ejl4rusqq81omm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "komsomolskaya.pravda_live",
+            "certificate_hash": "b0d4bab1572ff5cd11c49fce7af33bc8546a57fa"
+          }
+        },
+        {
+          "client_id": "873441510564-16e2l1c5ct72ce86j2dh51uqod3qtve6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAerq_r_64Nnn8-_ThX2wby7Ak5nZJuYj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873441510564-16e2l1c5ct72ce86j2dh51uqod3qtve6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873441510564:android:61dd216814ec3418781231",
+        "android_client_info": {
+          "package_name": "lex.coder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873441510564-16e2l1c5ct72ce86j2dh51uqod3qtve6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAerq_r_64Nnn8-_ThX2wby7Ak5nZJuYj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873441510564-16e2l1c5ct72ce86j2dh51uqod3qtve6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873441510564:android:fc77fc318a6994d6781231",
+        "android_client_info": {
+          "package_name": "parte.trabajo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873441510564-16e2l1c5ct72ce86j2dh51uqod3qtve6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAerq_r_64Nnn8-_ThX2wby7Ak5nZJuYj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873441510564-16e2l1c5ct72ce86j2dh51uqod3qtve6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-1208057699352262~3991730378"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873441510564:android:319f42888901165b781231",
+        "android_client_info": {
+          "package_name": "radio.budilnik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873441510564-16e2l1c5ct72ce86j2dh51uqod3qtve6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAerq_r_64Nnn8-_ThX2wby7Ak5nZJuYj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873441510564-16e2l1c5ct72ce86j2dh51uqod3qtve6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-1208057699352262~8755551017"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873441510564:android:e50b93bc1ae4b318781231",
+        "android_client_info": {
+          "package_name": "read.novosti.rossii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873441510564-dmhmaufl1bel0ef87439buc6f0tvb278.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "read.novosti.rossii",
+            "certificate_hash": "b0d4bab1572ff5cd11c49fce7af33bc8546a57fa"
+          }
+        },
+        {
+          "client_id": "873441510564-16e2l1c5ct72ce86j2dh51uqod3qtve6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAerq_r_64Nnn8-_ThX2wby7Ak5nZJuYj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873441510564-16e2l1c5ct72ce86j2dh51uqod3qtve6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873441510564:android:526bd6743bb092dd781231",
+        "android_client_info": {
+          "package_name": "russkoe.radio_rossii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873441510564-16e2l1c5ct72ce86j2dh51uqod3qtve6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAerq_r_64Nnn8-_ThX2wby7Ak5nZJuYj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873441510564-16e2l1c5ct72ce86j2dh51uqod3qtve6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-1208057699352262~3655020151"
+    }
+  ],
+  "configuration_version": "1"
+}

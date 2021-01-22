@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">Где мой ребенок ?</string>
+        <string name="title_activity_maps">Карта</string>
+        <string name="enter_your_key">Введите ваш уникальный ключ</string>.
+        <string name="next">Next</string>
+        <string name="textView_where_is_my_baby">ВНИМАНИЕ \n
+            Для правильной работы приложения: \n
+            1. Отключить уведомления для этого приложения \n
+            2. Вам также необходимо разрешить приложению доступ к данным о местоположении устройства и включить его в приложение \n
+            3. Изобретите и запомните свой уникальный ключ, он понадобится вам для того, чтобы войти в телефон наблюдателя и в наблюдаемый телефон \n
+            4. Установить роль
+        </string>
+        <string name="user_enable_location">Пользователь, включите местоположение, пожалуйста</string>.
+        <string name="location_setttings">Настройки местоположения</string>
+        <string name="no_">NO</string>
+        <string name="becouse">Иначе приложение не будет работать</string>.
+        <string name="theKeyNeedByMore">Клавиша должна быть длиннее семи символов</string>.
+        <string name="key_saved">Кей сохранен</string>
+        <string name="settings_">Настройки</string>
+        <string name="set_notification">Уведомление об ошибке</string>
+        <string name="set_location">Включить местоположение</string>
+        <string name="disable_notification">Уведомление об ошибке</string>
+        <string name="user_disable">Пользователь, пожалуйста, отключите уведомления</string>.
+        <string name="disable_n">Disable</string>
+        <string name="set_phone">Выберите роль телефона: будет ли это наблюдатель (роль отца) или наблюдаемый (роль сына)</string>.
+        <string name="set_r">Роль телефона</string>.
+        <string name="father_">Роль отца</string>
+        <string name="son_">Роль ребёнка</string>
+        <string name="role_">Роль</string>
+        <string name="share">Поделиться</string>
+        <string name="change_roll_name">Удалить клавишу и роль</string>.
+        <string name="change_roll_key">Если вам нужно удалить ключ и роль, \n Вставьте старый ключ</string>.
+        <string name="remove_">Удалить ключ и роль</string>
+        <string name="no_data">Нет данных ! </string>
+        <string name="for_you_key"> для вашего ключа</string>.
+</resources>

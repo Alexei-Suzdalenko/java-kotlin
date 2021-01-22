@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto" tools:context=".MainActivity" android:orientation="vertical" android:id="@+id/relativeLayoutGeneral">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:tint="@color/colorPrimary"
+                android:id="@+id/stop"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:layout_width="0dp"
+                android:layout_height="41dp"
+                android:src="@drawable/stop"
+                android:contentDescription="@string/app_name" />
+            <ImageView
+                android:tint="@color/colorPrimary"
+                android:id="@+id/play"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="41dp"
+                android:src="@drawable/play"
+                android:contentDescription="@string/app_name" />
+            <ImageView
+                android:tint="@color/colorPrimary"
+                android:id="@+id/change"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="41dp"
+                android:src="@drawable/change"
+                android:contentDescription="@string/app_name" />
+            <ImageView
+                android:tint="@color/colorPrimary"
+                android:id="@+id/coment"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="41dp"
+                android:src="@drawable/coment"
+                android:contentDescription="@string/app_name" />
+            <ImageView
+                android:tint="@color/colorPrimary"
+                android:id="@+id/share"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="41dp"
+                android:src="@drawable/share"
+                android:contentDescription="@string/app_name" />
+        </LinearLayout>
+        <ListView android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mainListView"
+            android:divider="@null"
+            android:dividerHeight="7dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout android:layout_marginTop="45dp"
+        android:orientation="vertical" android:id="@+id/linearLayoutNews" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.material.tabs.TabLayout
+            app:tabSelectedTextColor="@color/colorPrimary"
+            app:tabTextColor="@color/black"
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabMode="scrollable"/>
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white" />
+    </LinearLayout>
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-1208057699352262/7575035557"
+        >
+    </com.google.android.gms.ads.AdView>
+    <!-- ads:adUnitId="ca-app-pub-1208057699352262/8743178383" -->
+</RelativeLayout>

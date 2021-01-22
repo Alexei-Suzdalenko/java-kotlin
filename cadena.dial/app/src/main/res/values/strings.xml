@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Cadena Dial</string>
+    <string name="ads">¡ Que tengas un buen día !</string>
+    <string name="title_home">Radios de España</string>
+    <string name="title_dashboard">House Music</string>
+    <string name="title_notifications">Autor</string>
+    <string name="app_name_des">Cadena Dial Radio</string>
+    <string name="asset_statements" translatable="false">[{ \"include\": \"https://alexander-vishnevsky.web.app/.well-known/assetlinks.json\" }]</string>
+</resources>

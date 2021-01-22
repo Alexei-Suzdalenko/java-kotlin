@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".old.CreateNewPart" android:id="@+id/idScrollSignature">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_margin="22dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginBottom="21dp"
+            android:id="@+id/nameClientPart"
+            android:layout_margin="5dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginBottom="11dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:inputType="text"
+                android:id="@+id/datePart"
+                android:hint="@string/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginBottom="11dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:inputType="text"
+                android:id="@+id/timeStartPart"
+                android:hint="@string/timeStartPart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginBottom="11dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:inputType="text"
+                android:id="@+id/timeFinishPart"
+                android:hint="@string/timeFinishPart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginBottom="11dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:maxLines="111"
+                android:inputType="text|textMultiLine"
+                android:id="@+id/workPart"
+                android:hint="@string/workPart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginBottom="11dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:inputType="text"
+                android:id="@+id/pricePart"
+                android:hint="@string/pricePart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginBottom="11dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:inputType="text"
+                android:id="@+id/autoPart"
+                android:hint="@string/autoPart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <LinearLayout
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/cancelPart"
+                android:text="@string/cancel"
+                android:background="@color/red"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:ignore="NestedWeights" />
+            <Button
+                android:layout_marginStart="31dp"
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/savePart"
+                android:text="@string/save"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_marginStart="31dp"
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/updatePart"
+                android:text="@string/updatePart"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/black"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.kyanogen.signatureview.SignatureView
+                android:layout_margin="1dp"
+                xmlns:sign="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/signature"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                sign:penSize="5dp"
+                sign:backgroundColor="@color/white"
+                sign:penColor="@color/blue_night"
+                sign:enableSignature="true"
+                />
+        </LinearLayout>
+        <ImageView
+            android:contentDescription="@string/app_name"
+            android:id="@+id/imageSignature"
+            android:visibility="gone"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="300dp"
+            android:layout_height="200dp"/>
+        <LinearLayout
+            android:layout_marginBottom="111dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@color/red"
+                android:id="@+id/clearSignature"
+                android:text="@string/delete_signature"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:ignore="NestedWeights" />
+            <Button
+                android:layout_marginStart="33dp"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@color/blue"
+                android:id="@+id/saveSignature"
+                android:text="@string/save_signature"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

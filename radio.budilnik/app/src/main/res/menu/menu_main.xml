@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="radio.budilnik.Index">
+    <item
+        android:id="@+id/view_setting"
+        android:orderInCategory="100"
+        android:icon="@drawable/setting"
+        android:title="@string/action_settings"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="110"
+        android:icon="@drawable/share"
+        android:title="@string/action_settings"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/comment"
+        android:title="@string/comment" />
+    <item
+        android:id="@+id/eng_radio"
+        android:title="@string/eng_radio" />
+    <item
+        android:id="@+id/rus_radio"
+        android:title="@string/rus_radio" />
+    <item
+        android:id="@+id/spain"
+        android:title="@string/barmaleika" />
+    <item
+        android:id="@+id/buzoter"
+        android:title="@string/buzoter" />
+    <item
+        android:id="@+id/disableNot"
+        android:title="@string/disableNot" />
+</menu>

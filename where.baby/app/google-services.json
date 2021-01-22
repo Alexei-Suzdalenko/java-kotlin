@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1076801519610",
+    "firebase_url": "https://diseno-web-cantabria.firebaseio.com",
+    "project_id": "diseno-web-cantabria",
+    "storage_bucket": "diseno-web-cantabria.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076801519610:android:06129749f09d0e9c432e43",
+        "android_client_info": {
+          "package_name": "where.baby"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076801519610-afrve1hk8p7ujqngngohqf155o4or9e0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWw3WufXzihm3wyRKY-_3rVdCyW7DBsOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076801519610-afrve1hk8p7ujqngngohqf155o4or9e0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

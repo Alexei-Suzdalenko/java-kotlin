@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Radio alarm clock</string>
+    <string name="app_name_des">Radio alarm clock</string>
+    <string name="action_settings">Sound settings</string>
+    <string name="off">Shut down</string>
+    <string name="comment">Leave a comment</string>
+    <string name="share">Share</string>
+    <string name="barmaleika">Radio stations in Spain</string>
+    <string name="buzoter">Scrapbooking Boozer</string>
+    <string name="rus_radio">Radio stations of Russia</string>
+    <string name="disableNot">Disable notifications</string>
+    <string name="set_time_toAlarm">Set the alarm time</string>
+    <string name="delemiter">:</string>
+    <string name="cancel">Cancel</string>
+    <string name="go">Save</string>
+    <string name="titleDialogText">Set the alarm time</string>
+    <string name="use">Alarm clock set</string>
+    <string name="installlition">Alarm clock set</string>
+    <string name="offSound">Turn off the sound</string>
+    <string name="message">Radio sound is off</string>
+    <string name="offRadio">Turn off the alarm clock</string>
+    <string name="eng_radio">Radio stations in England</string>
+</resources>
