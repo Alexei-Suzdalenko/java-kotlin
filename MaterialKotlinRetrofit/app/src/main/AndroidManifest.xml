@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.simpleactivity">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GetPostRequest">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TabLayout">
+        </activity>
+        <activity
+            android:name=".NavigationLeftDriwer"
+            android:label="Сырный Теремок"></activity>
+        <activity android:name=".TextField" />
+        <activity
+            android:name=".AppBarTop"
+            android:label="Сырный Теремок" />
+        <activity android:name=".DatePicker" />
+        <activity android:name=".BottomSheet" />
+        <activity android:name=".ButtomAppBar" />
+        <activity android:name=".ActionButtons" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
