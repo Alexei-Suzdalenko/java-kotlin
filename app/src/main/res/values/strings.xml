@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Сырный Теремок</string>
+
+    <string name="email">alexei.saron@gmail.com</string>
+    <string name="title_login">Войти</string>
+    <string name="et_hint_email_id">Почта</string>
+    <string name="et_hint_password">Пароль</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="btn_lbl_login">Войти</string>
+    <string name="dont_have_accoutn">Нет аккаунта</string>
+    <string name="register">Регистрация</string>
+
+    <string name="create_an_account">Создать Аккаунт</string>
+    <string name="name">Ваше Имя</string>
+    <string name="telefone">Номер телефона</string>
+    <string name="company">Имя организации</string>
+    <string name="password">Пароль</string>
+    <string name="i_agree_to_the_terms_and_conditon">Принимаю условия пользования</string>
+
+    <string name="err_company">Имя организации не введено</string>
+    <string name="err_name">Имя не введено</string>
+    <string name="err_email">Почта не введена</string>
+    <string name="err_password">Пароль не введен</string>
+    <string name="err_checked">Нажмите галочку - принимаю условию пользования</string>
+    <string name="try_save_database">Данные введены правильно</string>
+    <string name="please_wait">Подождите…</string>
+
+    <string name="token">token</string>
+    <string name="title_login_forgot">Забыли пароль?</string>
+    <string name="new_password">Восстановить пароль</string>
+    <string name="email_resent">На вашу почту отправлена иструкция по восстановлени пароля</string>
+    <string name="tlf">Телефон</string>
+    <string name="err_tlf">Неправильный номер телефона</string>
+    <string name="male">Жен</string>
+    <string name="fem">Муж</string>
+    <string name="read_storage_permission_denied">Просмотр хранилища запрещен</string>
+    <string name="title_activity_dashboard">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="exit">Нажмите для выхода</string>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
