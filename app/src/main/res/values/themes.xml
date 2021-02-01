@@ -1,0 +1,12 @@
+<resources>
+<!--
+    <style name="Theme.Shopapp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Shopapp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Shopapp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    -->
+</resources>
