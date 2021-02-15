@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LocationManagerApi_not_google_play_services</string>
+    <string name="reset">Reset</string>
+</resources>
